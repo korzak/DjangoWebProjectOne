@@ -31,6 +31,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="app\blog\admin.py" />
+    <Compile Include="app\blog\apps.py" />
+    <Compile Include="app\blog\migrations\__init__.py" />
+    <Compile Include="app\blog\models.py" />
+    <Compile Include="app\blog\tests.py" />
+    <Compile Include="app\blog\views.py" />
+    <Compile Include="app\blog\__init__.py" />
     <Compile Include="app\forms.py" />
     <Compile Include="app\models.py" />
     <Compile Include="app\tests.py" />
@@ -44,6 +51,13 @@
     <Compile Include="blog\tests.py" />
     <Compile Include="blog\views.py" />
     <Compile Include="blog\__init__.py" />
+    <Compile Include="ddd\admin.py" />
+    <Compile Include="ddd\apps.py" />
+    <Compile Include="ddd\migrations\__init__.py" />
+    <Compile Include="ddd\models.py" />
+    <Compile Include="ddd\tests.py" />
+    <Compile Include="ddd\views.py" />
+    <Compile Include="ddd\__init__.py" />
     <Compile Include="manage.py" />
     <Compile Include="DjangoWebProjectOne\__init__.py" />
     <Compile Include="DjangoWebProjectOne\settings.py" />
@@ -52,6 +66,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\" />
+    <Folder Include="app\blog\" />
+    <Folder Include="app\blog\migrations\" />
+    <Folder Include="app\blog\templates\" />
+    <Folder Include="app\blog\templates\blog\" />
+    <Folder Include="app\blog\__pycache__\" />
     <Folder Include="app\migrations\" />
     <Folder Include="app\static\" />
     <Folder Include="app\static\app\" />
@@ -64,10 +83,19 @@
     <Folder Include="blog\migrations\" />
     <Folder Include="blog\templates\" />
     <Folder Include="blog\templates\blog\" />
+    <Folder Include="ddd\" />
+    <Folder Include="ddd\migrations\" />
+    <Folder Include="ddd\templates\" />
+    <Folder Include="ddd\templates\ddd\" />
     <Folder Include="DjangoWebProjectOne\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\blog\templates\blog\index.html" />
+    <Content Include="app\blog\__pycache__\admin.cpython-36.pyc" />
+    <Content Include="app\blog\__pycache__\models.cpython-36.pyc" />
+    <Content Include="app\blog\__pycache__\__init__.cpython-36.pyc" />
     <Content Include="blog\templates\blog\index.html" />
+    <Content Include="ddd\templates\ddd\index.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
