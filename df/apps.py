@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
 
-class dfConfig(AppConfig):
+class DfConfig(AppConfig):
     name = 'df'

@@ -44,20 +44,6 @@
     <Compile Include="blog\tests.py" />
     <Compile Include="blog\views.py" />
     <Compile Include="blog\__init__.py" />
-    <Compile Include="DjangoWebProjectOne\blog\admin.py" />
-    <Compile Include="DjangoWebProjectOne\blog\apps.py" />
-    <Compile Include="DjangoWebProjectOne\blog\migrations\__init__.py" />
-    <Compile Include="DjangoWebProjectOne\blog\models.py" />
-    <Compile Include="DjangoWebProjectOne\blog\tests.py" />
-    <Compile Include="DjangoWebProjectOne\blog\views.py" />
-    <Compile Include="DjangoWebProjectOne\blog\__init__.py" />
-    <Compile Include="DjangoWebProjectOne\df\admin.py" />
-    <Compile Include="DjangoWebProjectOne\df\apps.py" />
-    <Compile Include="DjangoWebProjectOne\df\migrations\__init__.py" />
-    <Compile Include="DjangoWebProjectOne\df\models.py" />
-    <Compile Include="DjangoWebProjectOne\df\tests.py" />
-    <Compile Include="DjangoWebProjectOne\df\views.py" />
-    <Compile Include="DjangoWebProjectOne\df\__init__.py" />
     <Compile Include="manage.py" />
     <Compile Include="DjangoWebProjectOne\__init__.py" />
     <Compile Include="DjangoWebProjectOne\settings.py" />
@@ -79,19 +65,9 @@
     <Folder Include="blog\templates\" />
     <Folder Include="blog\templates\blog\" />
     <Folder Include="DjangoWebProjectOne\" />
-    <Folder Include="DjangoWebProjectOne\blog\" />
-    <Folder Include="DjangoWebProjectOne\blog\migrations\" />
-    <Folder Include="DjangoWebProjectOne\blog\templates\" />
-    <Folder Include="DjangoWebProjectOne\blog\templates\blog\" />
-    <Folder Include="DjangoWebProjectOne\df\" />
-    <Folder Include="DjangoWebProjectOne\df\migrations\" />
-    <Folder Include="DjangoWebProjectOne\df\templates\" />
-    <Folder Include="DjangoWebProjectOne\df\templates\df\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="blog\templates\blog\index.html" />
-    <Content Include="DjangoWebProjectOne\blog\templates\blog\index.html" />
-    <Content Include="DjangoWebProjectOne\df\templates\df\index.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />
